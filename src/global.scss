@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "Open-Sans-SB";
+	src: url(./assets/fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+	font-family: "Open-Sans-R";
+	src: url(./assets/fonts/OpenSans-Regular.ttf);
+}
+body {
+	font-family: "Open-Sans-SB";
+}
+.header__nav {
+	--bs-nav-link-color: rgba(255, 255, 255, 0.696);
+	--bs-nav-link-hover-color: white;
+	height: 64px;
+}
+.header__currency {
+	color: rgb(3, 177, 3);
+}
+.main {
+	background-color: black;
+	height: 100vh;
+}
