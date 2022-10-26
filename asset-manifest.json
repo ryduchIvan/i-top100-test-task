@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ryduchIvan/i-top100-test-task/static/css/main.de1b0ffe.css",
-    "main.js": "/ryduchIvan/i-top100-test-task/static/js/main.f86e1e79.js",
-    "static/media/arrowdown.svg": "/ryduchIvan/i-top100-test-task/static/media/arrowdown.9da8dfb67a4a706ef341.svg",
-    "static/media/OpenSans-Regular.ttf": "/ryduchIvan/i-top100-test-task/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
-    "static/media/OpenSans-SemiBold.ttf": "/ryduchIvan/i-top100-test-task/static/media/OpenSans-SemiBold.2f17aae884058c5a85df.ttf",
-    "static/media/two-arrow.svg": "/ryduchIvan/i-top100-test-task/static/media/two-arrow.5ac498b06b3bd1a9981713f73a236138.svg",
-    "static/media/logo.svg": "/ryduchIvan/i-top100-test-task/static/media/logo.d691d04f50784a5d701406f88d132efa.svg",
-    "index.html": "/ryduchIvan/i-top100-test-task/index.html",
-    "static/media/preload.svg": "/ryduchIvan/i-top100-test-task/static/media/preload.976e625b739d24109d4710ad9c5c4a49.svg",
-    "main.de1b0ffe.css.map": "/ryduchIvan/i-top100-test-task/static/css/main.de1b0ffe.css.map",
-    "main.f86e1e79.js.map": "/ryduchIvan/i-top100-test-task/static/js/main.f86e1e79.js.map"
+    "main.css": "/i-top100-test-task/static/css/main.50cdfd0a.css",
+    "main.js": "/i-top100-test-task/static/js/main.fe4c1660.js",
+    "static/media/arrowdown.svg": "/i-top100-test-task/static/media/arrowdown.9da8dfb67a4a706ef341.svg",
+    "static/media/OpenSans-Regular.ttf": "/i-top100-test-task/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
+    "static/media/OpenSans-SemiBold.ttf": "/i-top100-test-task/static/media/OpenSans-SemiBold.2f17aae884058c5a85df.ttf",
+    "static/media/two-arrow.svg": "/i-top100-test-task/static/media/two-arrow.5ac498b06b3bd1a9981713f73a236138.svg",
+    "static/media/logo.svg": "/i-top100-test-task/static/media/logo.d691d04f50784a5d701406f88d132efa.svg",
+    "index.html": "/i-top100-test-task/index.html",
+    "static/media/preload.svg": "/i-top100-test-task/static/media/preload.976e625b739d24109d4710ad9c5c4a49.svg",
+    "main.50cdfd0a.css.map": "/i-top100-test-task/static/css/main.50cdfd0a.css.map",
+    "main.fe4c1660.js.map": "/i-top100-test-task/static/js/main.fe4c1660.js.map"
   },
   "entrypoints": [
-    "static/css/main.de1b0ffe.css",
-    "static/js/main.f86e1e79.js"
+    "static/css/main.50cdfd0a.css",
+    "static/js/main.fe4c1660.js"
   ]
 }
