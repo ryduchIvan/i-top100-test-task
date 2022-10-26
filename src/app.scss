@@ -1,0 +1,33 @@
+//there are styles for tag in App.tsx
+.main {
+	background-color: black;
+	height: 80vh;
+	position: relative;
+}
+.main__fields {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transform: translate(-50%, -50%);
+	background-color: #303030;
+	padding: 30px;
+	border-radius: 30px;
+}
+.main__switch-line {
+	margin: 20px 0px;
+}
+.main__title {
+	color: white;
+	text-align: center;
+}
+.main__title-img {
+	margin-left: 15px;
+}
+@media (max-width: 700px) {
+	.main__fields {
+		width: 98%;
+	}
+}

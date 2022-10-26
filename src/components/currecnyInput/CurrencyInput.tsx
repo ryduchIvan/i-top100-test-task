@@ -5,19 +5,21 @@ interface CurrencyInputProps {
 	currencies: string[] | undefined,
 	value: number,
 	handleAmount:(amount: number) => void,
-	handleCurrency:(value: Currencies) => void
+	handleCurrency:(value: Currencies) => void,
+	defaultCurrency: Currencies
 }
 
-export const CurrencyInput = ({currencies, value,  handleAmount, handleCurrency}: CurrencyInputProps) =>{
+export const CurrencyInput = ({currencies, value,  handleAmount, handleCurrency, defaultCurrency}: CurrencyInputProps) =>{
 	return (
-		<div className="row align-items-end main__field">
+		<div className="d-flex justify-content-center main__field">
 			    <Form.Select 
 					aria-label="Default select example" 
-					className="main__select col-6"
+					className="main__select"
 					onChange={(event) =>{
 						let value = event.target.value as Currencies;
 						handleCurrency(value);
 					}}
+					value={defaultCurrency}
 					>
 					{currencies ? currencies.map(currency => 
 					<option
@@ -25,9 +27,9 @@ export const CurrencyInput = ({currencies, value,  handleAmount, handleCurrency}
 					 value={currency}
 					 className="main__select-option"
 					 >{currency}
-					 </option>) : <option>UAH</option>}
+					 </option>) : <option>{defaultCurrency}</option>}
     			</Form.Select>
-				<Form className="col-6">
+				<Form className="">
         			<input
 					type="email" 
 					placeholder="100" 

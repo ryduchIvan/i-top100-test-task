@@ -26,12 +26,9 @@ export const Header = ({USD, EUR}: HeaderProps) =>{
 			  placement="end"
 			>
 			  <Offcanvas.Header closeButton>
-				<Offcanvas.Title id={`offcanvasNavbarLabel-expand-"lg"}`}>
-				  Offcanvas
-				</Offcanvas.Title>
 			  </Offcanvas.Header>
 			  <Offcanvas.Body>
-				<Nav className="flex-grow-1 pe-3 header__nav align-items-center">
+			  	<Nav className="header__nav align-items-center d-f w-100 justify-content-start justify-content-lg-end">
 				  <Nav.Link href="#action1">Гаманець</Nav.Link>
 				  <NavDropdown
 					title="Сервіси"
@@ -50,15 +47,13 @@ export const Header = ({USD, EUR}: HeaderProps) =>{
 					</NavDropdown.Item>
 				  </NavDropdown>
 				  <Nav.Link href="#action2">Архів</Nav.Link>
-				</Nav>
-				<Nav className="justify-content-end flex-grow-1 pe-3 header__nav align-items-center">
-				  <Nav.Link className="header__currency">{
-					USD ? "$" +  correctAmount(USD) : "$" + 30
-				  }</Nav.Link>
-				  <Nav.Link className="header__currency">{
-					EUR ? "$" +  correctAmount(EUR) : "$" + 40
-				  }</Nav.Link>
-				  <Nav.Link>Архів</Nav.Link>
+				 	<Nav.Link className="header__currency">{
+						USD ? "$" +  correctAmount(USD) : "$" + 30
+				  	}</Nav.Link>
+				  	<Nav.Link className="header__currency">{
+						EUR ? "€" +  correctAmount(EUR) : "€" + 40
+				  	}</Nav.Link>
+				  <Nav.Link>Аккаунт</Nav.Link>
 				</Nav>
 			  </Offcanvas.Body>
 			</Navbar.Offcanvas>

@@ -16,7 +16,7 @@ export const Footer = () =>{
 							<NavLink className="footer__link">API</NavLink>
 							<NavLink className="footer__link">Хочу до команди</NavLink>
 						</Nav>
-						<div className="row footer__phones">
+						<div className="row mt-3 footer__phones">
 							<div className="col-5 footer__phone">
 								<span>3700</span> безкоштовно з мобілних
 							</div>
@@ -39,9 +39,8 @@ export const Footer = () =>{
 							 Англійська
 						</NavDropdown.Item>
      				 </NavDropdown>
-					 <Nav className="col-8 mx-4 footer__nav">
-						<Nav.Link className="footer__link">Підтримка</Nav.Link>
-						<Nav.Link className="footer__link">Донати</Nav.Link>
+					 <Nav className="col-12 col-lg-8  footer__nav">
+						<Nav.Link className="mx-4 footer__link">Created by Ryduch</Nav.Link>
 					 </Nav>
 					</div>
 				</div>
