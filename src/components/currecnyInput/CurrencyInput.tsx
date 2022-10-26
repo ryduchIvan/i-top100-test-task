@@ -21,13 +21,13 @@ export const CurrencyInput = ({currencies, value,  handleAmount, handleCurrency,
 					}}
 					value={defaultCurrency}
 					>
-					{currencies ? currencies.map(currency => 
+					{currencies && currencies.map(currency => 
 					<option
 					 key={currency}
 					 value={currency}
 					 className="main__select-option"
 					 >{currency}
-					 </option>) : <option>{defaultCurrency}</option>}
+					 </option>) }
     			</Form.Select>
 				<Form className="">
         			<input
