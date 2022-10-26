@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
     axios.get(URL, {
       headers: {
-        "apikey": "mZMr48ZWY4FbUi35w7Eks05w8Mg9AQg9",
+        "apikey": "1pekBQtAgZHhT0us3NnOfJE8YL3ANlbT",
       }
     })
       .then((reponse) => {
