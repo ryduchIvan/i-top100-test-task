@@ -10,7 +10,7 @@ export const Footer = () =>{
 					<div className="col-8">
 						<Nav className="footer__nav">
 							<NavLink className="footer__link">Відділення</NavLink>
-							<NavLink className="footer__link">Регламент і тарифи</NavLink>
+							<NavLink className="footer__link">Регламент i тарифи</NavLink>
 							<NavLink className="footer__link">Про персональні дані</NavLink>
 							<NavLink className="footer__link">Безпека</NavLink>
 							<NavLink className="footer__link">API</NavLink>

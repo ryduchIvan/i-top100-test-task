@@ -1,6 +1,9 @@
+//CSS
 import "./header.scss";
-import { Rates } from "../../type";
+//Components
 import {Navbar, Container, Offcanvas, Nav, NavDropdown} from "react-bootstrap"
+//Icons
+import Logo from "../../assets/img/logo.svg";
 
 interface HeaderProps {
 	USD: number | undefined,
@@ -17,7 +20,7 @@ export const Header = ({USD, EUR}: HeaderProps) =>{
 		<Navbar  expand="lg" className=" header">
 		  <Container fluid="sm">
 			<Navbar.Brand>
-				<img src="https://next.privat24.ua/assets/de8ddb208f4b5f95b48c.svg" alt="logo"/>
+				<img src={Logo} alt="logo" className="header__logo"/>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
 			<Navbar.Offcanvas

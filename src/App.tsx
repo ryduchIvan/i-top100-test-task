@@ -13,18 +13,18 @@ import { Footer } from "./components/footer/Footer";
 //Icons
 import Preload from "./assets/img/preload.svg";
 function App() {
-  
+
   const [rates, setRates] = useState<Rates>();
   const [amount1, setAmount1] = useState<number>(0);
   const [amount2, setAmount2] = useState<number>(0);
-  const [currecny1, setCurrecny1] = useState<Currencies>("UAH");
-  const [currecny2, setCurrecny2] = useState<Currencies>("USD");
+  const [currecny1, setCurrecny1] = useState<Currencies>("USD");
+  const [currecny2, setCurrecny2] = useState<Currencies>("UAH");
   const [status, setStatus] = useState("loading");
 
   useEffect(() => {
     axios.get(URL, {
       headers: {
-        "apikey": "4RpE7DLyP2dPYqGmYrvIfe92GyEaa6Zt",
+        "apikey": "mZMr48ZWY4FbUi35w7Eks05w8Mg9AQg9",
       }
     })
       .then((reponse) => {
